@@ -1,0 +1,45 @@
+C:\Users\User\Desktop\lesio\6\zad-5-PAMW\P07Shop.DataSeeder\bin\Debug\net7.0\DataSeeder.deps.json
+C:\Users\User\Desktop\lesio\6\zad-5-PAMW\P07Shop.DataSeeder\bin\Debug\net7.0\DataSeeder.dll
+C:\Users\User\Desktop\lesio\6\zad-5-PAMW\P07Shop.DataSeeder\bin\Debug\net7.0\DataSeeder.pdb
+C:\Users\User\Desktop\lesio\6\zad-5-PAMW\P07Shop.DataSeeder\bin\Debug\net7.0\SharedP.dll
+C:\Users\User\Desktop\lesio\6\zad-5-PAMW\P07Shop.DataSeeder\bin\Debug\net7.0\SharedP.pdb
+C:\Users\User\Desktop\lesio\6\zad-5-PAMW\P07Shop.DataSeeder\obj\Debug\net7.0\DataSeeder.csproj.AssemblyReference.cache
+C:\Users\User\Desktop\lesio\6\zad-5-PAMW\P07Shop.DataSeeder\obj\Debug\net7.0\DataSeeder.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\User\Desktop\lesio\6\zad-5-PAMW\P07Shop.DataSeeder\obj\Debug\net7.0\DataSeeder.AssemblyInfoInputs.cache
+C:\Users\User\Desktop\lesio\6\zad-5-PAMW\P07Shop.DataSeeder\obj\Debug\net7.0\DataSeeder.AssemblyInfo.cs
+C:\Users\User\Desktop\lesio\6\zad-5-PAMW\P07Shop.DataSeeder\obj\Debug\net7.0\DataSeeder.csproj.CoreCompileInputs.cache
+C:\Users\User\Desktop\lesio\6\zad-5-PAMW\P07Shop.DataSeeder\obj\Debug\net7.0\DataSeeder.csproj.CopyComplete
+C:\Users\User\Desktop\lesio\6\zad-5-PAMW\P07Shop.DataSeeder\obj\Debug\net7.0\DataSeeder.dll
+C:\Users\User\Desktop\lesio\6\zad-5-PAMW\P07Shop.DataSeeder\obj\Debug\net7.0\refint\DataSeeder.dll
+C:\Users\User\Desktop\lesio\6\zad-5-PAMW\P07Shop.DataSeeder\obj\Debug\net7.0\DataSeeder.pdb
+C:\Users\User\Desktop\lesio\6\zad-5-PAMW\P07Shop.DataSeeder\obj\Debug\net7.0\ref\DataSeeder.dll
+C:\Users\User\Desktop\lesio\6\zad-5-PAMW\DataSeeder\bin\Debug\net7.0\DataSeeder.deps.json
+C:\Users\User\Desktop\lesio\6\zad-5-PAMW\DataSeeder\bin\Debug\net7.0\DataSeeder.dll
+C:\Users\User\Desktop\lesio\6\zad-5-PAMW\DataSeeder\bin\Debug\net7.0\DataSeeder.pdb
+C:\Users\User\Desktop\lesio\6\zad-5-PAMW\DataSeeder\bin\Debug\net7.0\SharedP.dll
+C:\Users\User\Desktop\lesio\6\zad-5-PAMW\DataSeeder\bin\Debug\net7.0\SharedP.pdb
+C:\Users\User\Desktop\lesio\6\zad-5-PAMW\DataSeeder\obj\Debug\net7.0\DataSeeder.csproj.AssemblyReference.cache
+C:\Users\User\Desktop\lesio\6\zad-5-PAMW\DataSeeder\obj\Debug\net7.0\DataSeeder.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\User\Desktop\lesio\6\zad-5-PAMW\DataSeeder\obj\Debug\net7.0\DataSeeder.AssemblyInfoInputs.cache
+C:\Users\User\Desktop\lesio\6\zad-5-PAMW\DataSeeder\obj\Debug\net7.0\DataSeeder.AssemblyInfo.cs
+C:\Users\User\Desktop\lesio\6\zad-5-PAMW\DataSeeder\obj\Debug\net7.0\DataSeeder.csproj.CoreCompileInputs.cache
+C:\Users\User\Desktop\lesio\6\zad-5-PAMW\DataSeeder\obj\Debug\net7.0\DataSeeder.csproj.CopyComplete
+C:\Users\User\Desktop\lesio\6\zad-5-PAMW\DataSeeder\obj\Debug\net7.0\DataSeeder.dll
+C:\Users\User\Desktop\lesio\6\zad-5-PAMW\DataSeeder\obj\Debug\net7.0\refint\DataSeeder.dll
+C:\Users\User\Desktop\lesio\6\zad-5-PAMW\DataSeeder\obj\Debug\net7.0\DataSeeder.pdb
+C:\Users\User\Desktop\lesio\6\zad-5-PAMW\DataSeeder\obj\Debug\net7.0\ref\DataSeeder.dll
+C:\Users\User\Desktop\lesio\Nowy folder (2)\PAMIW-PROJECT\DataSeeder\bin\Debug\net7.0\DataSeeder.deps.json
+C:\Users\User\Desktop\lesio\Nowy folder (2)\PAMIW-PROJECT\DataSeeder\bin\Debug\net7.0\DataSeeder.dll
+C:\Users\User\Desktop\lesio\Nowy folder (2)\PAMIW-PROJECT\DataSeeder\bin\Debug\net7.0\DataSeeder.pdb
+C:\Users\User\Desktop\lesio\Nowy folder (2)\PAMIW-PROJECT\DataSeeder\bin\Debug\net7.0\SharedP.dll
+C:\Users\User\Desktop\lesio\Nowy folder (2)\PAMIW-PROJECT\DataSeeder\bin\Debug\net7.0\SharedP.pdb
+C:\Users\User\Desktop\lesio\Nowy folder (2)\PAMIW-PROJECT\DataSeeder\obj\Debug\net7.0\DataSeeder.csproj.AssemblyReference.cache
+C:\Users\User\Desktop\lesio\Nowy folder (2)\PAMIW-PROJECT\DataSeeder\obj\Debug\net7.0\DataSeeder.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\User\Desktop\lesio\Nowy folder (2)\PAMIW-PROJECT\DataSeeder\obj\Debug\net7.0\DataSeeder.AssemblyInfoInputs.cache
+C:\Users\User\Desktop\lesio\Nowy folder (2)\PAMIW-PROJECT\DataSeeder\obj\Debug\net7.0\DataSeeder.AssemblyInfo.cs
+C:\Users\User\Desktop\lesio\Nowy folder (2)\PAMIW-PROJECT\DataSeeder\obj\Debug\net7.0\DataSeeder.csproj.CoreCompileInputs.cache
+C:\Users\User\Desktop\lesio\Nowy folder (2)\PAMIW-PROJECT\DataSeeder\obj\Debug\net7.0\DataSeeder.csproj.CopyComplete
+C:\Users\User\Desktop\lesio\Nowy folder (2)\PAMIW-PROJECT\DataSeeder\obj\Debug\net7.0\DataSeeder.dll
+C:\Users\User\Desktop\lesio\Nowy folder (2)\PAMIW-PROJECT\DataSeeder\obj\Debug\net7.0\refint\DataSeeder.dll
+C:\Users\User\Desktop\lesio\Nowy folder (2)\PAMIW-PROJECT\DataSeeder\obj\Debug\net7.0\DataSeeder.pdb
+C:\Users\User\Desktop\lesio\Nowy folder (2)\PAMIW-PROJECT\DataSeeder\obj\Debug\net7.0\ref\DataSeeder.dll

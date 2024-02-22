@@ -1,0 +1,63 @@
+﻿@page "/products/createbook"
+@using Blazored.LocalStorage;
+@inject IBookService BookService
+@inject NavigationManager NavigationManager
+@inject ILocalStorageService LocalStorageService
+
+<h3>Create Product</h3>
+
+@if (message != null)
+{
+    <p><em>@message</em></p>
+}
+else
+{
+    <BookForm book="book" OnValidSubmit="HandleValidSubmit"></BookForm>
+}
+@if (!string.IsNullOrEmpty(error) && errorDisplayed)
+{
+            <div id="blazor-error-ui" style="display: block;">
+                @error
+                <a href="" class="reload">Reload</a>
+                <a class="dismiss" @onclick="DismissError">🗙</a>
+            </div>
+}
+
+@code {
+    private Book book = new Book();
+    private string? message = null;
+    private string error = "";
+    bool errorDisplayed = false;
+    string authToken;
+    void DismissError()
+    {
+        errorDisplayed = false;
+    }
+    protected override async Task OnInitializedAsync()
+    {
+        authToken = await LocalStorageService.GetItemAsStringAsync("authToken");
+        if (authToken == null)
+        {
+            NavigationManager.NavigateTo("/Login");
+        }
+    }
+    async Task HandleValidSubmit()
+    {
+        errorDisplayed = false;
+        var response = await BookService.CreateBookAsync(book, authToken);
+        if (response == null)
+        {
+            errorDisplayed = true;
+            error = "There is no connection with api";
+            return;
+        }
+        if (response.Success)
+            NavigationManager.NavigateTo("/products/bookList");
+        else{
+            errorDisplayed = true;
+            error = response.Message;
+        }
+    }
+
+
+}

@@ -1,0 +1,36 @@
+C:\Users\User\Desktop\lesio\6\zad-5-PAMW\P06Shop.Shared\bin\Debug\net7.0\SharedP.deps.json
+C:\Users\User\Desktop\lesio\6\zad-5-PAMW\P06Shop.Shared\bin\Debug\net7.0\SharedP.dll
+C:\Users\User\Desktop\lesio\6\zad-5-PAMW\P06Shop.Shared\bin\Debug\net7.0\SharedP.pdb
+C:\Users\User\Desktop\lesio\6\zad-5-PAMW\P06Shop.Shared\obj\Debug\net7.0\SharedP.csproj.AssemblyReference.cache
+C:\Users\User\Desktop\lesio\6\zad-5-PAMW\P06Shop.Shared\obj\Debug\net7.0\SharedP.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\User\Desktop\lesio\6\zad-5-PAMW\P06Shop.Shared\obj\Debug\net7.0\SharedP.AssemblyInfoInputs.cache
+C:\Users\User\Desktop\lesio\6\zad-5-PAMW\P06Shop.Shared\obj\Debug\net7.0\SharedP.AssemblyInfo.cs
+C:\Users\User\Desktop\lesio\6\zad-5-PAMW\P06Shop.Shared\obj\Debug\net7.0\SharedP.csproj.CoreCompileInputs.cache
+C:\Users\User\Desktop\lesio\6\zad-5-PAMW\P06Shop.Shared\obj\Debug\net7.0\SharedP.dll
+C:\Users\User\Desktop\lesio\6\zad-5-PAMW\P06Shop.Shared\obj\Debug\net7.0\refint\SharedP.dll
+C:\Users\User\Desktop\lesio\6\zad-5-PAMW\P06Shop.Shared\obj\Debug\net7.0\SharedP.pdb
+C:\Users\User\Desktop\lesio\6\zad-5-PAMW\P06Shop.Shared\obj\Debug\net7.0\ref\SharedP.dll
+C:\Users\User\Desktop\lesio\6\zad-5-PAMW\SharedP\bin\Debug\net7.0\SharedP.deps.json
+C:\Users\User\Desktop\lesio\6\zad-5-PAMW\SharedP\bin\Debug\net7.0\SharedP.dll
+C:\Users\User\Desktop\lesio\6\zad-5-PAMW\SharedP\bin\Debug\net7.0\SharedP.pdb
+C:\Users\User\Desktop\lesio\6\zad-5-PAMW\SharedP\obj\Debug\net7.0\SharedP.csproj.AssemblyReference.cache
+C:\Users\User\Desktop\lesio\6\zad-5-PAMW\SharedP\obj\Debug\net7.0\SharedP.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\User\Desktop\lesio\6\zad-5-PAMW\SharedP\obj\Debug\net7.0\SharedP.AssemblyInfoInputs.cache
+C:\Users\User\Desktop\lesio\6\zad-5-PAMW\SharedP\obj\Debug\net7.0\SharedP.AssemblyInfo.cs
+C:\Users\User\Desktop\lesio\6\zad-5-PAMW\SharedP\obj\Debug\net7.0\SharedP.csproj.CoreCompileInputs.cache
+C:\Users\User\Desktop\lesio\6\zad-5-PAMW\SharedP\obj\Debug\net7.0\SharedP.dll
+C:\Users\User\Desktop\lesio\6\zad-5-PAMW\SharedP\obj\Debug\net7.0\refint\SharedP.dll
+C:\Users\User\Desktop\lesio\6\zad-5-PAMW\SharedP\obj\Debug\net7.0\SharedP.pdb
+C:\Users\User\Desktop\lesio\6\zad-5-PAMW\SharedP\obj\Debug\net7.0\ref\SharedP.dll
+C:\Users\User\Desktop\lesio\Nowy folder (2)\PAMIW-PROJECT\SharedP\bin\Debug\net7.0\SharedP.deps.json
+C:\Users\User\Desktop\lesio\Nowy folder (2)\PAMIW-PROJECT\SharedP\bin\Debug\net7.0\SharedP.dll
+C:\Users\User\Desktop\lesio\Nowy folder (2)\PAMIW-PROJECT\SharedP\bin\Debug\net7.0\SharedP.pdb
+C:\Users\User\Desktop\lesio\Nowy folder (2)\PAMIW-PROJECT\SharedP\obj\Debug\net7.0\SharedP.csproj.AssemblyReference.cache
+C:\Users\User\Desktop\lesio\Nowy folder (2)\PAMIW-PROJECT\SharedP\obj\Debug\net7.0\SharedP.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\User\Desktop\lesio\Nowy folder (2)\PAMIW-PROJECT\SharedP\obj\Debug\net7.0\SharedP.AssemblyInfoInputs.cache
+C:\Users\User\Desktop\lesio\Nowy folder (2)\PAMIW-PROJECT\SharedP\obj\Debug\net7.0\SharedP.AssemblyInfo.cs
+C:\Users\User\Desktop\lesio\Nowy folder (2)\PAMIW-PROJECT\SharedP\obj\Debug\net7.0\SharedP.csproj.CoreCompileInputs.cache
+C:\Users\User\Desktop\lesio\Nowy folder (2)\PAMIW-PROJECT\SharedP\obj\Debug\net7.0\SharedP.dll
+C:\Users\User\Desktop\lesio\Nowy folder (2)\PAMIW-PROJECT\SharedP\obj\Debug\net7.0\refint\SharedP.dll
+C:\Users\User\Desktop\lesio\Nowy folder (2)\PAMIW-PROJECT\SharedP\obj\Debug\net7.0\SharedP.pdb
+C:\Users\User\Desktop\lesio\Nowy folder (2)\PAMIW-PROJECT\SharedP\obj\Debug\net7.0\ref\SharedP.dll

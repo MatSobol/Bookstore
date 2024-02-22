@@ -1,0 +1,153 @@
+is_global = true
+build_property.TargetFramework = net7.0-android
+build_property.TargetPlatformMinVersion = 
+build_property.UsingMicrosoftNETSdkWeb = 
+build_property.ProjectTypeGuids = 
+build_property.InvariantGlobalization = false
+build_property.PlatformNeutralAssembly = 
+build_property.EnforceExtendedAnalyzerRules = 
+build_property._SupportedPlatformList = Linux,macOS,Windows
+build_property.EnableAotAnalyzer = 
+build_property.EnableSingleFileAnalyzer = true
+build_property.EnableTrimAnalyzer = false
+build_property.IncludeAllContentForSelfExtract = 
+build_property.RootNamespace = MauiApp1
+build_property.ProjectDir = C:\Users\User\Desktop\lesio\Nowy folder (2)\PAMIW-PROJECT\MauiApp1\
+
+[C:/Users/User/Desktop/lesio/Nowy folder (2)/PAMIW-PROJECT/MauiApp1/App.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = MauiApp1.App.xaml
+build_metadata.AdditionalFiles.TargetPath = App.xaml
+build_metadata.AdditionalFiles.RelativePath = App.xaml
+
+[C:/Users/User/Desktop/lesio/Nowy folder (2)/PAMIW-PROJECT/MauiApp1/AppShell.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = MauiApp1.AppShell.xaml
+build_metadata.AdditionalFiles.TargetPath = AppShell.xaml
+build_metadata.AdditionalFiles.RelativePath = AppShell.xaml
+
+[C:/Users/User/Desktop/lesio/Nowy folder (2)/PAMIW-PROJECT/MauiApp1/BookDetailsView.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = MauiApp1.BookDetailsView.xaml
+build_metadata.AdditionalFiles.TargetPath = BookDetailsView.xaml
+build_metadata.AdditionalFiles.RelativePath = BookDetailsView.xaml
+
+[C:/Users/User/Desktop/lesio/Nowy folder (2)/PAMIW-PROJECT/MauiApp1/Login.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = MauiApp1.Login.xaml
+build_metadata.AdditionalFiles.TargetPath = Login.xaml
+build_metadata.AdditionalFiles.RelativePath = Login.xaml
+
+[C:/Users/User/Desktop/lesio/Nowy folder (2)/PAMIW-PROJECT/MauiApp1/MainPage.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = MauiApp1.MainPage.xaml
+build_metadata.AdditionalFiles.TargetPath = MainPage.xaml
+build_metadata.AdditionalFiles.RelativePath = MainPage.xaml
+
+[C:/Users/User/Desktop/lesio/Nowy folder (2)/PAMIW-PROJECT/MauiApp1/Resources/Styles/Colors.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = MauiApp1.Resources.Styles.Colors.xaml
+build_metadata.AdditionalFiles.TargetPath = Resources\Styles\Colors.xaml
+build_metadata.AdditionalFiles.RelativePath = Resources\Styles\Colors.xaml
+
+[C:/Users/User/Desktop/lesio/Nowy folder (2)/PAMIW-PROJECT/MauiApp1/Resources/Styles/Styles.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = MauiApp1.Resources.Styles.Styles.xaml
+build_metadata.AdditionalFiles.TargetPath = Resources\Styles\Styles.xaml
+build_metadata.AdditionalFiles.RelativePath = Resources\Styles\Styles.xaml
+
+[C:/Users/User/Desktop/lesio/Nowy folder (2)/PAMIW-PROJECT/MauiApp1/wwwroot/css/bootstrap-grid.css]
+build_metadata.AdditionalFiles.GenKind = Css
+build_metadata.AdditionalFiles.ManifestResourceName = MauiApp1.wwwroot.css.bootstrap-grid.css
+build_metadata.AdditionalFiles.TargetPath = wwwroot\css\bootstrap-grid.css
+build_metadata.AdditionalFiles.RelativePath = wwwroot\css\bootstrap-grid.css
+
+[C:/Users/User/Desktop/lesio/Nowy folder (2)/PAMIW-PROJECT/MauiApp1/wwwroot/css/bootstrap-grid.min.css]
+build_metadata.AdditionalFiles.GenKind = Css
+build_metadata.AdditionalFiles.ManifestResourceName = MauiApp1.wwwroot.css.bootstrap-grid.min.css
+build_metadata.AdditionalFiles.TargetPath = wwwroot\css\bootstrap-grid.min.css
+build_metadata.AdditionalFiles.RelativePath = wwwroot\css\bootstrap-grid.min.css
+
+[C:/Users/User/Desktop/lesio/Nowy folder (2)/PAMIW-PROJECT/MauiApp1/wwwroot/css/bootstrap-grid.rtl.css]
+build_metadata.AdditionalFiles.GenKind = Css
+build_metadata.AdditionalFiles.ManifestResourceName = MauiApp1.wwwroot.css.bootstrap-grid.rtl.css
+build_metadata.AdditionalFiles.TargetPath = wwwroot\css\bootstrap-grid.rtl.css
+build_metadata.AdditionalFiles.RelativePath = wwwroot\css\bootstrap-grid.rtl.css
+
+[C:/Users/User/Desktop/lesio/Nowy folder (2)/PAMIW-PROJECT/MauiApp1/wwwroot/css/bootstrap-grid.rtl.min.css]
+build_metadata.AdditionalFiles.GenKind = Css
+build_metadata.AdditionalFiles.ManifestResourceName = MauiApp1.wwwroot.css.bootstrap-grid.rtl.min.css
+build_metadata.AdditionalFiles.TargetPath = wwwroot\css\bootstrap-grid.rtl.min.css
+build_metadata.AdditionalFiles.RelativePath = wwwroot\css\bootstrap-grid.rtl.min.css
+
+[C:/Users/User/Desktop/lesio/Nowy folder (2)/PAMIW-PROJECT/MauiApp1/wwwroot/css/bootstrap-reboot.css]
+build_metadata.AdditionalFiles.GenKind = Css
+build_metadata.AdditionalFiles.ManifestResourceName = MauiApp1.wwwroot.css.bootstrap-reboot.css
+build_metadata.AdditionalFiles.TargetPath = wwwroot\css\bootstrap-reboot.css
+build_metadata.AdditionalFiles.RelativePath = wwwroot\css\bootstrap-reboot.css
+
+[C:/Users/User/Desktop/lesio/Nowy folder (2)/PAMIW-PROJECT/MauiApp1/wwwroot/css/bootstrap-reboot.min.css]
+build_metadata.AdditionalFiles.GenKind = Css
+build_metadata.AdditionalFiles.ManifestResourceName = MauiApp1.wwwroot.css.bootstrap-reboot.min.css
+build_metadata.AdditionalFiles.TargetPath = wwwroot\css\bootstrap-reboot.min.css
+build_metadata.AdditionalFiles.RelativePath = wwwroot\css\bootstrap-reboot.min.css
+
+[C:/Users/User/Desktop/lesio/Nowy folder (2)/PAMIW-PROJECT/MauiApp1/wwwroot/css/bootstrap-reboot.rtl.css]
+build_metadata.AdditionalFiles.GenKind = Css
+build_metadata.AdditionalFiles.ManifestResourceName = MauiApp1.wwwroot.css.bootstrap-reboot.rtl.css
+build_metadata.AdditionalFiles.TargetPath = wwwroot\css\bootstrap-reboot.rtl.css
+build_metadata.AdditionalFiles.RelativePath = wwwroot\css\bootstrap-reboot.rtl.css
+
+[C:/Users/User/Desktop/lesio/Nowy folder (2)/PAMIW-PROJECT/MauiApp1/wwwroot/css/bootstrap-reboot.rtl.min.css]
+build_metadata.AdditionalFiles.GenKind = Css
+build_metadata.AdditionalFiles.ManifestResourceName = MauiApp1.wwwroot.css.bootstrap-reboot.rtl.min.css
+build_metadata.AdditionalFiles.TargetPath = wwwroot\css\bootstrap-reboot.rtl.min.css
+build_metadata.AdditionalFiles.RelativePath = wwwroot\css\bootstrap-reboot.rtl.min.css
+
+[C:/Users/User/Desktop/lesio/Nowy folder (2)/PAMIW-PROJECT/MauiApp1/wwwroot/css/bootstrap-utilities.css]
+build_metadata.AdditionalFiles.GenKind = Css
+build_metadata.AdditionalFiles.ManifestResourceName = MauiApp1.wwwroot.css.bootstrap-utilities.css
+build_metadata.AdditionalFiles.TargetPath = wwwroot\css\bootstrap-utilities.css
+build_metadata.AdditionalFiles.RelativePath = wwwroot\css\bootstrap-utilities.css
+
+[C:/Users/User/Desktop/lesio/Nowy folder (2)/PAMIW-PROJECT/MauiApp1/wwwroot/css/bootstrap-utilities.min.css]
+build_metadata.AdditionalFiles.GenKind = Css
+build_metadata.AdditionalFiles.ManifestResourceName = MauiApp1.wwwroot.css.bootstrap-utilities.min.css
+build_metadata.AdditionalFiles.TargetPath = wwwroot\css\bootstrap-utilities.min.css
+build_metadata.AdditionalFiles.RelativePath = wwwroot\css\bootstrap-utilities.min.css
+
+[C:/Users/User/Desktop/lesio/Nowy folder (2)/PAMIW-PROJECT/MauiApp1/wwwroot/css/bootstrap-utilities.rtl.css]
+build_metadata.AdditionalFiles.GenKind = Css
+build_metadata.AdditionalFiles.ManifestResourceName = MauiApp1.wwwroot.css.bootstrap-utilities.rtl.css
+build_metadata.AdditionalFiles.TargetPath = wwwroot\css\bootstrap-utilities.rtl.css
+build_metadata.AdditionalFiles.RelativePath = wwwroot\css\bootstrap-utilities.rtl.css
+
+[C:/Users/User/Desktop/lesio/Nowy folder (2)/PAMIW-PROJECT/MauiApp1/wwwroot/css/bootstrap-utilities.rtl.min.css]
+build_metadata.AdditionalFiles.GenKind = Css
+build_metadata.AdditionalFiles.ManifestResourceName = MauiApp1.wwwroot.css.bootstrap-utilities.rtl.min.css
+build_metadata.AdditionalFiles.TargetPath = wwwroot\css\bootstrap-utilities.rtl.min.css
+build_metadata.AdditionalFiles.RelativePath = wwwroot\css\bootstrap-utilities.rtl.min.css
+
+[C:/Users/User/Desktop/lesio/Nowy folder (2)/PAMIW-PROJECT/MauiApp1/wwwroot/css/bootstrap.css]
+build_metadata.AdditionalFiles.GenKind = Css
+build_metadata.AdditionalFiles.ManifestResourceName = MauiApp1.wwwroot.css.bootstrap.css
+build_metadata.AdditionalFiles.TargetPath = wwwroot\css\bootstrap.css
+build_metadata.AdditionalFiles.RelativePath = wwwroot\css\bootstrap.css
+
+[C:/Users/User/Desktop/lesio/Nowy folder (2)/PAMIW-PROJECT/MauiApp1/wwwroot/css/bootstrap.min.css]
+build_metadata.AdditionalFiles.GenKind = Css
+build_metadata.AdditionalFiles.ManifestResourceName = MauiApp1.wwwroot.css.bootstrap.min.css
+build_metadata.AdditionalFiles.TargetPath = wwwroot\css\bootstrap.min.css
+build_metadata.AdditionalFiles.RelativePath = wwwroot\css\bootstrap.min.css
+
+[C:/Users/User/Desktop/lesio/Nowy folder (2)/PAMIW-PROJECT/MauiApp1/wwwroot/css/bootstrap.rtl.css]
+build_metadata.AdditionalFiles.GenKind = Css
+build_metadata.AdditionalFiles.ManifestResourceName = MauiApp1.wwwroot.css.bootstrap.rtl.css
+build_metadata.AdditionalFiles.TargetPath = wwwroot\css\bootstrap.rtl.css
+build_metadata.AdditionalFiles.RelativePath = wwwroot\css\bootstrap.rtl.css
+
+[C:/Users/User/Desktop/lesio/Nowy folder (2)/PAMIW-PROJECT/MauiApp1/wwwroot/css/bootstrap.rtl.min.css]
+build_metadata.AdditionalFiles.GenKind = Css
+build_metadata.AdditionalFiles.ManifestResourceName = MauiApp1.wwwroot.css.bootstrap.rtl.min.css
+build_metadata.AdditionalFiles.TargetPath = wwwroot\css\bootstrap.rtl.min.css
+build_metadata.AdditionalFiles.RelativePath = wwwroot\css\bootstrap.rtl.min.css

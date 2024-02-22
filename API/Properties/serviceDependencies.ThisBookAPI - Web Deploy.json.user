@@ -1,0 +1,24 @@
+{
+  "dependencies": {
+    "apis1": {
+      "restored": true,
+      "restoreTime": "2023-11-12T08:13:38.0892868Z"
+    },
+    "mssql1": {
+      "restored": true,
+      "restoreTime": "2023-11-12T11:15:49.6811542Z"
+    }
+  },
+  "parameters": {
+    "apis1.resourceGroupName": {
+      "Name": "apis1.resourceGroupName",
+      "Type": "resourceGroup",
+      "Value": "P10WebApp"
+    },
+    "apis1.subscriptionId": {
+      "Name": "apis1.subscriptionId",
+      "Type": "subscription",
+      "Value": "b0cc2347-bd9c-42bd-9fde-3d0fd4bebbe5"
+    }
+  }
+}

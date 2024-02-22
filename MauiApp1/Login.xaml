@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:toolkit="http://schemas.microsoft.com/dotnet/2022/maui/toolkit"
+             x:Class="Maui.Client.Login"
+             Title="Login"
+             BackgroundColor="#f8f9fa">
+    <ScrollView>
+        <VerticalStackLayout Spacing="20" Padding="20">
+            <VerticalStackLayout Spacing="10" Padding="10">
+                <Label Text="Email:"/>
+                <Border>
+                    <Entry x:Name="EmailTextBox" Margin="5" Text="{Binding UserLoginDTO.Email, Mode=TwoWay}" />
+                </Border>
+                <Label Text="Password:" />
+                <Border BackgroundColor="#f8f9fa">
+                    <Entry BackgroundColor="#f8f9fa" x:Name="PasswordBox" Margin="5" Text="{Binding UserLoginDTO.Password, Mode=TwoWay}"/>
+                </Border>
+                <Button Text="Login" Command="{Binding LoginCommand}"/>
+                <Button IsVisible="false" x:Name="Google" Text="Login Google" Command="{Binding LoginGoogleCommand}"/>
+                <Button IsVisible="false" x:Name="Microsoft" Text="Login Microsoft" Command="{Binding LoginMicrosoftCommand}"/>
+                <Button IsVisible="false" x:Name="Facebook" Text="Login Facebook" Command="{Binding LoginFacebookCommand}"/>
+            </VerticalStackLayout>
+            <WebView Source="{Binding Url}"
+             x:Name = "jsExampleWebView"
+             IsVisible = "{Binding Visibility}"
+             HeightRequest="900"
+             Navigated="jsExampleWebView_Navigated"
+             >
+            </WebView>
+        </VerticalStackLayout>
+    </ScrollView>
+</ContentPage>

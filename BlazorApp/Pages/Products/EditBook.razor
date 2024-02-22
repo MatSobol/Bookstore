@@ -1,0 +1,111 @@
+﻿@page "/products/editbook/{Id:int}"
+@using Blazored.LocalStorage;
+@inject IBookService BookService
+@inject NavigationManager NavigationManager
+@inject ILocalStorageService LocalStorageService
+
+<h3>Edit Product</h3>
+
+@if (book == null)
+{
+    <p><em>@message</em></p>
+}
+else
+{
+    <BookForm book="book" OnValidSubmit="HandleValidSubmit"></BookForm>
+    <button class="btn btn-danger mt-3" @onclick=HandleDelete>Delete</button>
+}
+@if (!string.IsNullOrEmpty(error) && errorDisplayed)
+{
+                <div id="blazor-error-ui" style="display: block;">
+                    @error
+                    <a href="" class="reload">Reload</a>
+                    <a class="dismiss" @onclick="DismissError">🗙</a>
+                </div>
+}
+
+
+
+@code {
+    [Parameter]
+    public int Id { get; set; }
+
+    private Book book;
+    private string message = "Loading product...";
+    private string error = "";
+    private int id = -1;
+    string authToken;
+    bool errorDisplayed = false;
+    void DismissError()
+    {
+        errorDisplayed = false;
+    }
+    protected override async Task OnInitializedAsync()
+    {
+        errorDisplayed = false;
+        authToken = await LocalStorageService.GetItemAsStringAsync("authToken");
+        if (authToken == null)
+        {
+            NavigationManager.NavigateTo("/Login");
+        }
+        var response = await BookService.ReadBooksAsync();
+        if (response == null)
+        {
+            errorDisplayed = true;
+            error = "There is no connection with api";
+            return;
+        }
+        if (response.Success)
+        {
+            foreach (Book book in response.Data)
+            {
+                if (book.Id == Id)
+                {
+                    this.id = Id;
+                    this.book = book;
+                    break;
+                }
+            }
+        }
+        else
+        {
+            errorDisplayed = true;
+            error = response.Message;
+        }
+    }
+
+    async Task HandleValidSubmit()
+    {
+        var response = await BookService.UpdateBookAsync(book, id, authToken);
+        if (response == null)
+        {
+            errorDisplayed = true;
+            error = "There is no connection with api";
+            return;
+        }
+        if (response.Success)
+            NavigationManager.NavigateTo("/products/bookList");
+        else
+        {
+            errorDisplayed = true;
+            error = response.Message;
+        }
+    }
+
+    async Task HandleDelete()
+    {
+        var response = await BookService.DeleteBookAsync(Id, authToken);
+        if (response == null)
+        {
+            errorDisplayed = true;
+            error = "There is no connection with api";
+            return;
+        }
+        if (response.Success)
+            NavigationManager.NavigateTo("/products/bookList");
+        else{
+            errorDisplayed = true;
+            error = response.Message;
+        }
+    }
+}

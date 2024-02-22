@@ -1,0 +1,85 @@
+﻿@page "/Login"
+@using Blazored.LocalStorage;
+@using Microsoft.AspNetCore.Components.Authorization;
+@using SharedP.Auth;
+@using SharedP.Services.AuthService;
+@using System;
+
+@inject IBookService BookService
+@inject HttpClient httpclient
+@inject IAuthService AuthService
+@inject ILocalStorageService LocalStorageService
+@inject AuthenticationStateProvider AuthenticationStateProvider
+@inject NavigationManager NavigationManager
+<h3>Login</h3>
+
+
+<EditForm Model="userLoginDTO" OnValidSubmit="HandleLogin">
+
+    <p>Email:</p>
+    <InputText @bind-Value="userLoginDTO.Email" id="email"></InputText>
+    <p>Password:</p>
+    <InputText @bind-Value="userLoginDTO.Password" id="password"></InputText>
+    <br/>
+    <button class="btn btn-primary" style="margin: 10px; type="submit">Login</button>
+
+</EditForm>
+
+<button styles="" class="btn btn-primary"  style="margin: 10px;" @onclick="LoginGoogle">Login with Google</button>
+<br/>
+@if (holder.URL == "http://localhost:5093")
+{
+    <button styles="" class="btn btn-primary"  style="margin: 10px;" @onclick="LoginMicrosoft">Login with Microsoft</button>
+    <br/>
+    <button styles="" class="btn btn-primary"  style="margin: 10px;" @onclick="LoginFacebook">Login with Facebook</button>
+}
+
+@if (!string.IsNullOrEmpty(message) && errorDisplayed)
+{
+    <div id="blazor-error-ui" style="display: block;">
+        @message
+        <a href="" class="reload">Reload</a>
+            <a class="dismiss" @onclick="DismissError">🗙</a>
+    </div>
+}
+
+@code {
+    private UserLoginDTO userLoginDTO = new UserLoginDTO();
+    private string message = string.Empty;
+    bool errorDisplayed = false;
+    private void LoginGoogle()
+    {
+        NavigationManager.NavigateTo("http://booker.eastus.cloudapp.azure.com:5093/api/Auth/loginGoogle?requestId=1", forceLoad: true);
+    }
+    private void LoginMicrosoft()
+    {
+        NavigationManager.NavigateTo("http://localhost:5093/api/Auth/loginMicrosoft?requestId=1", forceLoad: true);
+    }
+    private void LoginFacebook()
+    {
+        NavigationManager.NavigateTo("http://localhost:5093/api/Auth/loginFacebook?requestId=1", forceLoad: true);
+    }
+    void DismissError()
+    {
+        errorDisplayed = false;
+    }
+    private async Task HandleLogin()
+    {
+        var x = httpclient;
+        errorDisplayed = false;
+        var result = await  AuthService.Login(userLoginDTO);
+        if (result.Success)
+        {
+            await LocalStorageService.SetItemAsync("authToken", result.Data);
+            await AuthenticationStateProvider.GetAuthenticationStateAsync();
+
+            NavigationManager.NavigateTo("/");
+        }
+        else
+        {
+            errorDisplayed = true;
+            message = result.Message;
+        }
+    }
+
+}

@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="Maui.Client.BookDetailsView"
+             Title="{Binding Title}"
+             BackgroundColor="#f8f9fa" >
+    <VerticalStackLayout>
+        <Grid Margin="10">
+            <Grid.RowDefinitions>
+                <RowDefinition Height="Auto"/>
+                <RowDefinition Height="Auto"/>
+                <RowDefinition Height="Auto"/>
+                <RowDefinition Height="Auto"/>
+                <RowDefinition Height="Auto"/>
+                <RowDefinition Height="Auto"/>
+                <RowDefinition Height="Auto"/>
+            </Grid.RowDefinitions>
+
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition Width="Auto"/>
+                <ColumnDefinition Width="*"/>
+            </Grid.ColumnDefinitions>
+
+            <Label Text="Id:" Grid.Row="0" Grid.Column="0"/>
+            <Border Grid.Row="0" Grid.Column="1">
+                <Entry Text="{Binding Id, Mode=TwoWay}" />
+            </Border>
+
+            <Label Text="Title:" Grid.Row="1" Grid.Column="0"/>
+            <Border Grid.Row="1" Grid.Column="1">
+                <Entry Text="{Binding Title, Mode=TwoWay}" />
+            </Border>
+
+
+            <Label Text="Author:" Grid.Row="2" Grid.Column="0"/>
+            <Border Grid.Row="2" Grid.Column="1">
+                <Entry Text="{Binding Author, Mode=TwoWay}" />
+            </Border>
+            
+
+        </Grid>
+        <HorizontalStackLayout HorizontalOptions="CenterAndExpand" >
+            <Button   
+        Command="{Binding SaveCommand}" 
+           Text="Save" >
+
+            </Button>
+            <Button  
+        Command="{Binding DeleteCommand}" 
+           Text="Delete" >
+
+            </Button>
+
+        </HorizontalStackLayout>
+    </VerticalStackLayout>
+</ContentPage>

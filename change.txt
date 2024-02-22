@@ -1,0 +1,5 @@
+setx ASPNETCORE_ENVIRONMENT "Development"
+setx ASPNETCORE_ENVIRONMENT "Production"
+
+ssh adam@booker.eastus.cloudapp.azure.com
+aA1!b4B1FG12

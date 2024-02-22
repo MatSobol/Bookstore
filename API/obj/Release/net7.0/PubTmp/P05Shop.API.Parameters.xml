@@ -1,0 +1,9 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<parameters>
+  <parameter name="IIS Web Application Name" description="" value="P05ShopAPI20231207231503" tags="IisApp">
+    <parameterEntry kind="ProviderPath" scope="IisApp" match="^C:\\Users\\User\\Desktop\\lesio\\6\\zad-5-PAMW\\P05Shop\.API\\obj\\Release\\net7\.0\\PubTmp\\Out\\$" />
+  </parameter>
+  <parameter name="P05Shop.API.Models.DataContext" description="" value="Data Source=apibook.database.windows.net,1433;Initial Catalog=P05Shop.API_db;User ID=adam;Password=!aw1e734p1" tags="dbfullsql">
+    <parameterEntry kind="ProviderPath" scope="dbfullsql" match="^C:\\Users\\User\\Desktop\\lesio\\6\\zad-5-PAMW\\P05Shop\.API\\obj\\Release\\net7\.0\\PubTmp\\EFSQLScripts\\P05Shop\.API\.Models\.DataContext\.sql$" />
+  </parameter>
+</parameters>

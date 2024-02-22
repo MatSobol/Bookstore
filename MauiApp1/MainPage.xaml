@@ -1,0 +1,81 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="Maui.Client.MainPage"
+             xmlns:toolkit="http://schemas.microsoft.com/dotnet/2022/maui/toolkit"
+             xmlns:viewmodel="clr-namespace:Maui.Client.ViewModels"
+             BackgroundColor="#f8f9fa"
+             Title=""
+             NavigationPage.HasNavigationBar="False">
+    <ContentPage.Resources>
+        <ResourceDictionary>
+            <toolkit:IsStringNotNullOrEmptyConverter x:Key="IsStringNotNullOrEmptyConverter" />
+        </ResourceDictionary>
+        <Style x:Key="BorderLabelStyle" TargetType="Border">
+            <Setter Property="Background" Value="#1b6ec2" />
+            <Setter Property="Padding" Value="10" />
+            <Setter Property="Margin" Value="10,10,0,0" />
+            <Setter Property="MinimumHeightRequest" Value="44"/>
+            <Setter Property="MinimumWidthRequest" Value="44"/>
+       </Style>
+    </ContentPage.Resources>
+    <ScrollView>
+        <VerticalStackLayout
+            Spacing="25"
+            Padding="30,0"
+            VerticalOptions="Center">
+            <HorizontalStackLayout Padding="10" VerticalOptions="CenterAndExpand" HorizontalOptions="End" Background="Transparent">
+                <Border Style="{StaticResource BorderLabelStyle}" IsVisible="{Binding Username, Converter={StaticResource IsStringNotNullOrEmptyConverter}}">
+                    <Label TextColor="#fff">
+                        <Label.FormattedText>
+                            <FormattedString>
+                                <Span Text="Hello: "/>
+                                <Span Text="{Binding Username}"/>
+                            </FormattedString>
+                        </Label.FormattedText>
+                    </Label>
+                </Border>
+                <Button   
+                    Command="{Binding LoginCommand}" 
+                    Text="{Binding MethodType}" />
+            </HorizontalStackLayout>
+            <Button   
+        Command="{Binding NewCommand}" 
+          Text="Menage Book" >
+            </Button>
+            <Label Text="{Binding LoadingText}">
+            </Label>
+                <CollectionView ItemsSource="{Binding Books}">
+                <CollectionView.ItemTemplate>
+                    <DataTemplate>
+                        <Frame>
+                            <Frame.GestureRecognizers>
+                                <TapGestureRecognizer
+                                Command="{Binding Source={RelativeSource AncestorType={x:Type viewmodel:BookViewModel}}, Path=ShowDetailsCommand }"
+                                CommandParameter="{Binding .}" ></TapGestureRecognizer>
+                            </Frame.GestureRecognizers>
+                            <Grid BackgroundColor="#f8f9fa" Padding="10" Margin="5">
+                                <Grid.RowDefinitions>
+                                    <RowDefinition Height="auto"></RowDefinition>
+                                    <RowDefinition Height="auto"></RowDefinition>
+                                </Grid.RowDefinitions>
+
+                                <HorizontalStackLayout Grid.Row="0">
+                                    <Label Text="{Binding Id}" Margin="0,0,10,0"></Label>
+                                    <Label Text="{Binding Title}" FontSize="16"></Label>
+                                </HorizontalStackLayout>
+                                <Label Grid.Row="1" Text="{Binding Author}"></Label>
+                                <BoxView Grid.Row="3" HeightRequest="1" BackgroundColor="#ddd" HorizontalOptions="Fill" Margin="0,28,0,0" />
+                            </Grid>
+                        </Frame>
+
+
+                    </DataTemplate>
+                </CollectionView.ItemTemplate>
+            </CollectionView>
+
+
+        </VerticalStackLayout>
+    </ScrollView>
+
+</ContentPage>
